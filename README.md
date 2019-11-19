@@ -28,4 +28,4 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ![Newsfeed UI Screenshot](https://github.com/rashadrussell/newsfeed_ui/blob/master/ui_screenshot.png)
-Format: ![Alt Text](url)
+Format: ![Alt Text](https://github.com/rashadrussell/newsfeed_ui/blob/master/ui_screenshot.png)
