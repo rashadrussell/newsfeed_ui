@@ -1,0 +1,87 @@
+.pledge-card .pledge-card-body {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+}
+
+.pledge-card .metrics,
+.pledge-card .action-controls {
+    padding: 15px;
+    flex-grow: 1;
+    text-align: left;
+}
+
+.pledge-card .thumbnail-container {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-right: solid 1px #ccc;
+    overflow: hidden;
+}
+
+.pledge-card .thumbnail {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.pledge-card .action-controls {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.pledge-card .pledge-total,
+.pledge-card .pledge-goal-statement,
+.pledge-card .number-of-pledgers,
+.pledge-card .number-of-pledgers-label {
+    margin-top: 0px;
+}
+
+.pledge-card .pledge-goal-statement,
+.pledge-card .number-of-pledgers-label {
+    font-size: 12px;
+    color: #888;
+}
+
+.pledge-card .pledge-total {
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #28d197;
+}
+
+.pledge-card .pledge-total.task-open-style {
+    color: #1dc8e4;
+}
+
+.pledge-card .pledge-total.task-complete-style {
+    color: #55d399;
+}
+
+.pledge-card .number-of-pledgers {
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #888;
+}
+
+.pledge-card .number-of-pledgers-label {
+    margin: 0px;
+}
+
+.pledge-card .pledge-card-footer {
+    padding: 15px;
+    border-top: solid 1px #ccc;
+    background-color: #f4f4f6;
+}
+
+.pledge-card .pledge-card-footer .view-source-button-container {
+    margin-right: 20px;
+}
+
+.pledge-card .pledge-card-footer .view-source-button,
+.pledge-card .pledge-card-footer .view-code-submissions-button {
+    color: #888;
+}

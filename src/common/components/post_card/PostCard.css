@@ -1,0 +1,127 @@
+.post-card {
+    background-color: #fff;
+    box-shadow: 0px 0px 4px 0px #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.post-card .post-card-body {
+    padding: 0px 15px 15px 15px;
+    text-align: left;
+}
+
+.post-card .post-card-header {
+    padding: 15px;
+}
+
+.post-card .name-container {
+    padding-left: 15px;
+}
+
+.post-card .name {
+    font-weight: bold;
+}
+
+.post-card .author-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.post-card .avatar-container {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    border: solid 5px #fff;
+    box-shadow: 0px 0px 4px 0px #ccc;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.post-card .avatar-container .avatar {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.post-card .status-container {
+    flex-grow: 1;
+    text-align: right;
+}
+
+.post-card .status-container .status-label {
+    padding: 5px 25px;
+    font-size: 12px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.post-card .status-container .status-label.trending {
+    color: #fff;
+    background-color: #f64a65;
+}
+
+.post-card .status-container .status-label.task-complete {
+    color: #fff;
+    background-color: #55d399;
+}
+
+.post-card .post-card-body .title {
+    margin: 0px 0px 15px 0px;
+    font-size: 16px;
+    color: #333;
+}
+
+.post-card .post-card-body .description {
+    margin: 0px 0px 15px 0px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #555;
+}
+
+.post-card .post-card-footer {
+    display: flex;
+    flex-direction: col;
+    padding: 15px;
+    background-color: #f4f4f6;
+    text-align: left;
+}
+
+.post-card .post-card-footer .left-col,
+.post-card .post-card-footer .right-col {
+    flex-grow: 1;
+}
+
+.post-card .post-card-footer .right-col {
+    text-align: right;
+}
+
+.post-card .post-card-footer .num-comments-button {
+    margin-right: 20px;
+    margin-left: 5px;
+    font-size: 12px;
+    color: #888;
+}
+
+.post-card .post-card-footer .num-comments-button .text {
+    margin-left: 5px;
+}
+
+.post-card .post-card-footer .share-button {
+    margin-left: 5px;
+    font-size: 12px;
+    color: #888;
+}
+
+.post-card .post-card-footer .share-button .text {
+    margin-left: 5px;
+}
+
+.post-card .pledge-card-container {
+    margin-bottom: 15px;
+    border: solid 1px #ccc;
+    border-radius: 4px;
+}

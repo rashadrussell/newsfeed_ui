@@ -1,0 +1,47 @@
+.button:hover {
+    cursor: pointer;
+}
+
+.button-type-text {
+    padding: 0px;
+    border: none;
+    background-color: transparent;
+}
+
+.button-type-outline {
+    padding: 5px 25px;
+    background-color: transparent;
+    border: solid 2px #888;
+    color: #888;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.button-type-outline:hover {
+    background-color: #888;
+    color: #fff;
+}
+
+.button-type-outline.task-complete-style {
+    border-color: #55d399;
+    color: #55d399;
+}
+
+.button-type-outline.task-open-style {
+    border-color: #1dc8e4;
+    color: #1dc8e4;
+}
+
+.button-type-outline.task-complete-style:hover {
+    background-color: #55d399;
+    border-color: #55d399;
+    color: #fff;
+}
+
+.button-type-outline.task-open-style:hover {
+    background-color: #1dc8e4;
+    border-color: #1dc8e4;
+    color: #fff;
+}

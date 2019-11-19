@@ -1,0 +1,16 @@
+.feed-filter-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feed-filter-bar .selected {
+    background-color: #888;
+    color: #fff;
+}
+
+.feed-filter-bar .filter-bar-label {
+    margin-right: 20px;
+    font-weight: bold;
+}
