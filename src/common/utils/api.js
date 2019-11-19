@@ -6,8 +6,6 @@ export const fetchApi = (url, options={}) => {
         filter,
         page
     } = options;
-    let filterQuery = '';
-    let pageQuery = '';
     let queryArgs = '';
     let queries = [];
 
